@@ -6,8 +6,15 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Mar 2025 14:36:41 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 04 Mar 2025 15:05:15 +0800</lastBuildDate>
     <atom:link href="https://Nikii-Dust.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>配置博客</title>
+      <link>https://Nikii-Dust.github.io/posts/%E9%85%8D%E7%BD%AE%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Tue, 04 Mar 2025 15:05:15 +0800</pubDate>
+      <guid>https://Nikii-Dust.github.io/posts/%E9%85%8D%E7%BD%AE%E5%8D%9A%E5%AE%A2/</guid>
+      <description>&lt;p&gt;大致流程&lt;/p&gt;&#xA;&lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;&#xA;&lt;p&gt;&lt;del&gt;熟练？使用命令行&lt;/del&gt;&lt;/p&gt;&#xA;&lt;p&gt;安装Hugo:使用winget&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;winget install Hugo.Hugo.Extended&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;安装git:&lt;a href=&#34;https://git-scm.cn/downloads/win&#34;&gt;Git - 下载软件包 - Git 版本控制系统&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;安装Go:欸我好像没有用到&lt;/p&gt;&#xA;&lt;p&gt;验证&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo version&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;搭建新站点&#34;&gt;搭建新站点&lt;/h2&gt;&#xA;&lt;p&gt;选择喜欢的hugo主题&lt;/p&gt;&#xA;&lt;p&gt;官方主题网站: &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;https://themes.gohugo.io/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hugo官方的教程提供了详细的命令解释和例程：&lt;a href=&#34;https://gohugo.com.cn/getting-started/quick-start/#explanation-of-commands&#34;&gt;快速入门 | Hugo 框架&lt;/a&gt;&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new site 站点名字&#xA;&#xA;cd 站点名字&#xA;&#xA;git init&#xA;&#xA;git submodule add [fork喜欢的主题得到的网址]&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后在根目录下的 &lt;code&gt;config.toml&lt;/code&gt;文件中添加新的一行:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;theme = &amp;#34;主题名&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;del&gt;这一步使用教程里面的echo方法可能会出现问题，建议二次确认一下&lt;/del&gt;&lt;/p&gt;&#xA;&lt;p&gt;启动 Hugo 的开发服务器以查看站点&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo server&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如果顺利的话，可以在http://localhost:1313/看到本地部署的网站&lt;/p&gt;&#xA;&lt;h2 id=&#34;ref&#34;&gt;ref:&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://jianzhnie.github.io/post/hugo_site/#&#34;&gt;Hugo + Github Pages 搭建个人博客 | Robin 的个人主页&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;快速入门 | Hugo 框架&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Test</title>
       <link>https://Nikii-Dust.github.io/posts/test/</link>

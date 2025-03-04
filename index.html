@@ -26,8 +26,8 @@
 
 
   <meta itemprop="name" content="My New Hugo Site">
-  <meta itemprop="datePublished" content="2025-03-04T14:36:41+08:00">
-  <meta itemprop="dateModified" content="2025-03-04T14:36:41+08:00">
+  <meta itemprop="datePublished" content="2025-03-04T15:05:15+08:00">
+  <meta itemprop="dateModified" content="2025-03-04T15:05:15+08:00">
 
 <link rel="stylesheet" href="/css/layout.css" />
 
@@ -74,6 +74,64 @@
 
   
     
+      <article class="post-preview">
+
+  <header>
+    <h2 class="title"> <a href='https://Nikii-Dust.github.io/posts/%E9%85%8D%E7%BD%AE%E5%8D%9A%E5%AE%A2/'> 配置博客</a> </h2>
+    <div class="meta">
+      <div class="date">
+      2025-03-04
+      </div>
+      
+<div class="tags">
+  
+</div>
+
+    </div>
+
+  </header>
+
+  <div class="summary">
+    <p>大致流程</p>
+<h2 id="安装">安装</h2>
+<p><del>熟练？使用命令行</del></p>
+<p>安装Hugo:使用winget</p>
+<pre tabindex="0"><code>winget install Hugo.Hugo.Extended
+</code></pre><p>安装git:<a href="https://git-scm.cn/downloads/win">Git - 下载软件包 - Git 版本控制系统</a></p>
+<p>安装Go:欸我好像没有用到</p>
+<p>验证</p>
+<pre tabindex="0"><code>hugo version
+</code></pre><h2 id="搭建新站点">搭建新站点</h2>
+<p>选择喜欢的hugo主题</p>
+<p>官方主题网站: <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p>
+<p>Hugo官方的教程提供了详细的命令解释和例程：<a href="https://gohugo.com.cn/getting-started/quick-start/#explanation-of-commands">快速入门 | Hugo 框架</a></p>
+<pre tabindex="0"><code>hugo new site 站点名字
+
+cd 站点名字
+
+git init
+
+git submodule add [fork喜欢的主题得到的网址]
+</code></pre><p>然后在根目录下的 <code>config.toml</code>文件中添加新的一行:</p>
+<pre tabindex="0"><code>theme = &#34;主题名&#34;
+</code></pre><p><del>这一步使用教程里面的echo方法可能会出现问题，建议二次确认一下</del></p>
+<p>启动 Hugo 的开发服务器以查看站点</p>
+<pre tabindex="0"><code>hugo server
+</code></pre><p>如果顺利的话，可以在http://localhost:1313/看到本地部署的网站</p>
+<h2 id="ref">ref:</h2>
+<p><a href="https://jianzhnie.github.io/post/hugo_site/#">Hugo + Github Pages 搭建个人博客 | Robin 的个人主页</a></p>
+<p>快速入门 | Hugo 框架</p>
+  </div>
+
+  <div class="rmore">
+    <a href='https://Nikii-Dust.github.io/posts/%E9%85%8D%E7%BD%AE%E5%8D%9A%E5%AE%A2/' class="rmore">Read more</a>
+  </div>
+
+
+</article>
+
+  
+  
       <article class="post-preview">
 
   <header>
